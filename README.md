@@ -1,2 +1,35 @@
-# alx_capstone_project
-ALX Full Stack Software Engineering Capstone Project
+ALX Capstone Preparation
+
+
+ROJECT OVERVIEW
+
+
+FEATURES AND FUNCTIONALITY
+
+
+TECHNOLOGIES USED
+
+
+[BACK-END]
+
+Flask
+PYTHON
+[FRONT-END]
+
+HTML
+CSS
+JAVASCRIPT
+
+
+SCREENSHOTS OR DEMO
+
+N/A
+
+ROADMAP AND FUTURE ENHANCEMENTS
+
+
+CONTACT INFORMATION
+
+INSTAGRAM
+LINKEDIN
+alx_capstone_project/README.md at main · caminspired/alx_capstone_project
