@@ -1,11 +1,14 @@
 ALX Capstone Preparation
 
 
-ROJECT OVERVIEW
-
+PROJECT OVERVIEW
+This is compilation of academic and professional materials that shares Lesego's beliefs, skills, qualifications, education, training, and experiences.
 
 FEATURES AND FUNCTIONALITY
-
+Information about Lesego
+Contact Details
+Marketeable Skill
+Work Samples
 
 TECHNOLOGIES USED
 
@@ -26,7 +29,7 @@ SCREENSHOTS OR DEMO
 N/A
 
 ROADMAP AND FUTURE ENHANCEMENTS
-
+Investment in security parameters i.e: Web Application Firewall for portection on 
 
 CONTACT INFORMATION
 
