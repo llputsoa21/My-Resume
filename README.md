@@ -12,11 +12,6 @@ Work Samples
 
 TECHNOLOGIES USED
 
-
-[BACK-END]
-
-Flask
-PYTHON
 [FRONT-END]
 
 HTML
