@@ -36,4 +36,14 @@
     margin-top: 20px;
 }
 
-/* Additional styling for other sections and elements as needed */
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.lesego-image {
+    width: 200px; /* Adjust size as needed */
+    margin-bottom: 20px; /* Add space between image and text */
+}

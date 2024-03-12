@@ -7,8 +7,99 @@
     <title>Lesego's Personal Portfolio</title>
     <style>
         body {
-            background-image: url(./images/visual-studio-code-logo-png-transparent.png);
-            background-size: cover; 
+            font-family: Arial, sans-serif;
+            background-image: url("images/pexels-photo.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+        }
+                body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f3f3;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        .logo {
+            font-size: 24px;
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .navbar li {
+            margin-right: 20px;
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            color: #fff;
+            transition: color 0.3s ease;
+        }
+
+        .navbar li a:hover {
+            color: #ff9900;
+        }
+
+        .content {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .content p {
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+
+        .hidden-content {
+            display: none;
+        }
+
+        .hidden-content.active {
+            display: block;
+        }
+
+        /* Adjustments for better presentation */
+        .content p {
+            margin-bottom: 15px;
+        }
+
+        .content p:last-child {
+            margin-bottom: 0;
+        }
+        .experience-item .kam,
+        .experience .am,
+        .experience .ae,
+        .experience .pm,
+        .experience .ps,
+        .experience .iam,
+        .experience .hd-sd {
+            margin-top: 20px;
+            font-weight: bold;
         }
     </style>
 </head>
@@ -26,158 +117,217 @@
     </header>
 
     <div id="about-content" class="hidden-content">
-        <p>Lesego is a seasoned IT Solutions professional with different experiences in IT Operations, Cybersecurity, and Enterprise Resources Planning (ERP).</p>
-        <p>I am currently on a new venture with ALX Africa on a project-based course: Full Stack Software Engineering.</p>
+        <div class="content">
+            <p>Lesego is a seasoned IT Solutions professional with experiences in IT Operations, Cybersecurity, and ERP.</p>
+            <p>I am currently on a new venture with ALX Africa on a project-based course: Full Stack Software Engineering.</p>
+        </div>
     </div>
 
     <div id="skills-content" class="hidden-content">
-        <p>Team Leadership/Management <br> Teamwork <br> Customer Relationship Management (CRM) <br> Pre-sales <br> Product Management <br> Sales Management <br> Communication Skills 
-        Microsoft Suite <br> Google Suite <br> Software as a Service (SaaS) <br> Problem Solving <br> HTML <br> CSS <br> Python <br> JavaScript <br> Github <br> Web Development</p> <br>
-        Professional Certifications <br>
-        Solarwinds Sales Expert (SSE) <br> Fortinet Network Security Expert 1, 2 & 3 <br> McAfee Advanced Threat Defense <br>McAfee Threat Intelligence Exchange <br>
-        McAfee Web Security <br> Forcepoint Cloud Web Security Pre-Sales Engineer Workshop <br> Forcepoint NGFW PreSales Engineer Workshop <br> Forcepoint DLP Pre-Sales Engineer <br>
-        Forcepoint Email Pre-Sales Engineer <br> Forcepoint Data Protection Pre-Sales Engineer <br> Logic Monitor Sales Generalist <br> BMC Account Planning Best Practices <br>
-        Ivanti Endpoint Manager <br> Ivanti Security Sales Professional <br> TrendMicro Foundation <br> Quest Data Modeler Sales Accreditation
+        <div class="content">
+            <h2>Skills</h2>
+            <ul>
+                <li>Team Leadership/Management</li>
+                <li>Teamwork</li>
+                <li>Customer Relationship Management (CRM)</li>
+                <li>Pre-sales</li>
+                <li>Product Management</li>
+                <li>Sales Management</li>
+                <li>Communication Skills</li>
+                <li>Microsoft Suite</li>
+                <li>Google Suite</li>
+                <li>Software as a Service (SaaS)</li>
+                <li>Problem Solving</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>Github</li>
+                <li>Web Development</li>
+            </ul>
+            <h2>Professional Certifications</h2>
+            <ul>
+                <li>Solarwinds Sales Expert (SSE)</li>
+                <li>Fortinet Network Security Expert 1, 2 & 3</li>
+                <li>McAfee Advanced Threat Defense</li>
+                <li>McAfee Threat Intelligence Exchange</li>
+                <li>McAfee Web Security</li>
+                <li>Forcepoint Cloud Web Security Pre-Sales Engineer Workshop</li>
+                <li>Forcepoint NGFW PreSales Engineer Workshop</li>
+                <li>Forcepoint DLP Pre-Sales Engineer</li>
+                <li>Forcepoint Email Pre-Sales Engineer</li>
+                <li>Forcepoint Data Protection Pre-Sales Engineer</li>
+                <li>Logic Monitor Sales Generalist</li>
+                <li>BMC Account Planning Best Practices</li>
+                <li>Ivanti Endpoint Manager</li>
+                <li>Ivanti Security Sales Professional</li>
+                <li>TrendMicro Foundation</li>
+                <li>Quest Data Modeler Sales Accreditation</li>
+            </ul>
+        </div>
     </div>
-
+    
     <div id="qualifications-content" class="hidden-content">
-        <p>Institution: ALX Africa <br>
-           Qualification: Full Stack Software Engineering (Most Recent) <br>
-           Institution: ProServ South Africa <br>
-           Qualification: Technical Support NQF Level 4 (2018) <br>
-           Institution: Central Johannesburg College <br>
-           Qualification: Business Management N5 (2013) <br>
-           Institution: Emshukantambo Secondary School <br>
-           Qualification: Grade 12/Matric (2009)</p>
+        <div class="content">
+            <h2>Qualifications</h2>
+            <ul>
+                <li><strong>Institution:</strong> ALX Africa</li>
+                <li><strong>Qualification:</strong> Full Stack Software Engineering (Most Recent)</li>
+                <li><strong>Institution:</strong> ProServ South Africa</li>
+                <li><strong>Qualification:</strong> Technical Support NQF Level 4 (2018)</li>
+                <li><strong>Institution:</strong> Central Johannesburg College</li>
+                <li><strong>Qualification:</strong> Business Management N5 (2013)</li>
+                <li><strong>Institution:</strong> Emshukantambo Secondary School</li>
+                <li><strong>Qualification:</strong> Grade 12/Matric (2009)</li>
+            </ul>
+        </div>
     </div>
-
     <div id="experience-content" class="hidden-content">
-        <p>Key Account Manager</p>
-        <p>Company: Rectron South Africa (IT Hardware, Software & Services Distributor)</p>
-        <p>Period: 03/2022 to Date</p>
-        <p>Customer Base</p>
-        <p>• Managing the assigned customer base, building strong relationships and driving key product lines <br>
-           • Assisting with ALL customer enquiries when needed <br>
-           • Contact details to be updated on Customer Base and on ERP system <br>
-           • Managing the credit limit available and cover where needed. <br>
-           • Ensure that accounts are current, and queries resolved <br>
-           • Signing up new customers that meet the criteria 
-        </p>
-        <p>Sales & Pipeline Management</p>
-        <p>• Adequately understand the order process on Rectron’s ERP system. Read customer requests carefully, ensuring that quotes are done quickly and accurately <br>
-           • Ensure month on month growth in partner base across all brands<br>
-           • Identify new markets, business opportunities, grow and service existing customers <br>
-        </p>
-        <p>Effective Communication</p>
-        <p>• Communicate politely and effectively across internal and external stakeholders <br>
-           • Getting back to stakeholders timeously <br>
-           • Manage expectations with stakeholders  <br>
-           • Work in a team <br>
-           • Collaborate across internal and external stakeholders  <br>
-        </p>
-        <p>Query Management</p>
-        <p>• Should there be any queries on orders by partners, ensure that queries are raised with the correct department as quickly as possible and then providing all stakeholders with the necessary feedback  <br>
-        </p>
-        <p>Knowledge</p>
-        <p>• Maintain a good level of knowledge across all Rectron product and solution offerings <br>
-           • Online training must be up to date and completed when required <br>
-           • Attending scheduled internal and external training sessions when needed (after 17:00 or weekends if needed) <br>
-         </p> <br>
+        <div class="content">
+            <div class="experience-item">
+            <h2 class="kam">Key Account Manager</h2>
+            <p><strong>Company:</strong> Rectron South Africa (IT Hardware, Software & Services Distributor)</p>
+            <p><strong>Period:</strong> 09/2023 to Date</p>
+            <h3>Responsibilities:</h3>
+            <ul>
+                <li>Managing the assigned customer base, building strong relationships and driving key product lines</li>
+                <li>Assisting with ALL customer enquiries when needed</li>
+                <li>Contact details to be updated on Customer Base and on ERP system</li>
+                <li>Managing the credit limit available and cover where needed</li>
+                <li>Ensure that accounts are current, and queries resolved</li>
+                <li>Signing up new customers that meet the criteria</li>
+            </ul>
+            <h3>Sales & Pipeline Management:</h3>
+            <ul>
+                <li>Adequately understand the order process on Rectron’s ERP system. Read customer requests carefully, ensuring that quotes are done quickly and accurately</li>
+                <li>Ensure month-on-month growth in partner base across all brands</li>
+                <li>Identify new markets, business opportunities, grow and service existing customers</li>
+            </ul>
+            <h3>Effective Communication:</h3>
+            <ul>
+                <li>Communicate politely and effectively across internal and external stakeholders</li>
+                <li>Getting back to stakeholders timeously</li>
+                <li>Manage expectations with stakeholders</li>
+                <li>Work in a team</li>
+                <li>Collaborate across internal and external stakeholders</li>
+            </ul>
+            <h3>Query Management:</h3>
+            <ul>
+                <li>Should there be any queries on orders by partners, ensure that queries are raised with the correct department as quickly as possible and then providing all stakeholders with the necessary feedback</li>
+            </ul>
+            <h3>Knowledge:</h3>
+            <ul>
+                <li>Maintain a good level of knowledge across all Rectron product and solution offerings</li>
+                <li>Online training must be up to date and completed when required</li>
+                <li>Attending scheduled internal and external training sessions when needed (after 17:00 or weekends if needed)</li>
+            </ul>
+            </div>
 
-         <p>National Account Manager</p>
-         <p>Company: Bluebridge One(IT Consulting, NetSuite ERP)</p>
-         <p>Period: 11/2022 to 08/2023</p>
-         <p>• Manage customer accounts and grow customer revenues against targets <br>
-            • Develop positive, long-term relationships with C-Level executives <br>
-            • Design and implement targeted account-based strategies, with the Marketing team <br>
-            • Collaborate with fellow Professional Services team members to provide effective solutions for our customers <br>
-            • Working closely with Marketing to generate business development strategies <br>
-            • Prepare and maintain on CRM a monthly forecast and pipeline reports to for inclusion in the sales forecasts 
-        </p> <br>
+            <h2 class="am">National Account Manager</h2>
+            <p><strong>Company:</strong> Bluebridge One(IT Consulting, NetSuite ERP)</p>
+            <p><strong>Period:</strong> 11/2022 to 08/2023</p>
+            <h3>Responsibilities:</h3>
+            <ul>
+                <li>Manage customer accounts and grow customer revenues against targets</li>
+                <li>Develop positive, long-term relationships with C-Level executives</li>
+                <li>Design and implement targeted account-based strategies, with the Marketing team</li>
+                <li>Collaborate with fellow Professional Services team members to provide effective solutions for our customers</li>
+                <li>Working closely with Marketing to generate business development strategies</li>
+                <li>Prepare and maintain on CRM a monthly forecast and pipeline reports to for inclusion in the sales forecasts</li>
+            </ul>
 
-         <p>Account Executive</p>
-         <p>Company: Bluebridge One(IT Consulting, NetSuite ERP)</p>
-         <p>Period: 11/2022 to 08/2023</p>
-         <p>• Create detailed business plans designed to attain predetermined goals <br>
-            • Manage the entire sales cycle from finding a client to securing a deal <br>
-            • Contact details to be updated on Customer Base and on ERP system <br>
-            • Unearth new sales opportunities through networking and turn them into long-term partnerships <br>
-            • Present solutions to prospective clients <br>
-            • Provide professional after-sales support to maximize customer loyalty 
-            • Remain in regular contact with your clients to understand and meet their needs <br> 
-            • Respond to complaints and resolve issues to the customer’s satisfaction and to maintain the company’s reputation <br>
-            • Provide professional after-sales support to maximize customer loyalty <br>
-            • Negotiate agreements and keep records of sales and data
-         </p>
-         <p>Product Manager</p>
-         <p>Company: Axiz (IT Hardware, Software & Services Distributor - SaaS, Cloud, IOT, AI)</p>
-         <p>Period: 10/2019 to 03/2022</p>
-         <p>• Create product marketing communications objectives <br>
-            • Manage from concept, to design, sample production, testing, forecast, cost, mass production, promotion, support, and finally product end of life. <br>
-            • Delivers the operating plan: the achievement of growth objectives including market share, revenue, profit, and return on investment for all the channels/categories of business and/or key customers. <br>
-            • Responsible for managing and implementing marketing activities through research, strategic planning, and implementation <br>
-            • Promoting Service offerings(SaaS, Cloud hosting, IoT and AI) <br>
-            • Maintain and expand database of prospects within the assigned territory <br>
-            • Team up with the Vendor Channel Team to be aligned with the Product G2M strategy <br> 
-            • Responsible for Product and Business Development <br>
-            • Account Management and mapping to achieve targets <br>
-            • Negotiate contracts and work agreements <br>
-            • Manage and submit accurate weekly forecasts <br>
-            • Regular commit reporting for pipeline, forecast for upcoming Quarter <br>
-            • Participate in important business/trade events that impact business unit <br>
-            • Work closely with Presales Engineers on Demos/POC and Enablement <br>
-            • Marketing Promote product e.g. social media campaigns for awareness on LinkedIn
-         </p>
-         <p>Pre-sales Consultant</p>
-         <p>Company: Itec South Africa(Telecommunications, Cloud, Mobility, Security)</p>
-         <p>Period: 08/2019 to 09/2019</p>
-         <p>• Providing administrative and sales support to sales representatives <br>
-            • Feasibility checks for customer for customer proposals <br>
-            • Projects department and monitoring the completion of projects <br> 
-            • Update weekly pipeline reports <br>
-            • Projects department and monitoring the completion of projects <br>
-            • Liaise with Service providers to order links <br>        
-         </p>
-         <p>Internal Account Manager</p>
-         <p>Company: EOH (Cloud, SaaS, Hardware & Data Management Solutions)</p>
-         <p>Period: 11/2017 to 07/2019</p>
-         <p>• Account Management <br>
-            • Vendor & Distribution Management <br> 
-            • Recommending the nature and scope of present and future product lines by reviewing product specifications and requirements; appraising new product ideas <br>
-            • Introducing and marketing new products by developing time-integrated plans with sales, advertising, and production <br>
-            • Maintains professional and technical knowledge by attending educational workshops; reviewing professional publications; establishing personal networks <br>
-            • Prepare Quotes - For Renewals on Support & Maintenance <br>
-            • Prepare Quotes for New Business Proposals on proposed F5 Solutions <br>
-            • Follow up on submitted quotations <br>
-            • Manage & Update CRM for new opportunities            
-         </p>
-         <p>Service Desk/Helpdesk Consultant</p>
-         <p>Company: EOH (Cloud, SaaS, Hardware & Data Management Solutions)</p>
-         <p>Period: 07/2015 to 10/2017 </p>
-         <p>• Incident ticket logging <br>
-            • IT Administration <br>
-            • Warranty/Out of warranty Repairs <br>
-            • Helpdesk/Service Desk Support <br>
-            • Onsite Support & Installations <br>
-            • IT Technician and Systems Administration, customer service/Helpdesk/Call Centre environment <br>
-            • Assembling, upgrading, repairing, installing, maintaining PCs, LAN / network / Service Quality           
-         </p>
-         <p>Service Desk/Helpdesk Consultant</p>
-         <p>Company: EOH (Cloud, SaaS, Hardware & Data Management Solutions)</p>
-         <p>Period: 07/2015 to 10/2017 </p>
-         <p>• Reinstate life and investments policies <br>
-            • Provide customer services <br>
-            • Building relationships with internal and external stakeholders <br>
-            • Reinstatement of life and investment policies, responding to call and SMS’s of customers requesting to reinstate their policies <br>
-            • Assisting customers who would like to cash-in their policies <br>
-            • Upselling additional covers upon client request <br>          
-         </p>
+            <h2 class="ae">Account Executive</h2>
+            <p><strong>Company:</strong> Blue Turtle Technologies</p>
+            <p><strong>Period:</strong> 03/2022 to 10/2022</p>
+            <h3>Responsibilities:</h3>
+            <ul>
+                <li>Create detailed business plans designed to attain predetermined goals</li>
+                <li>Manage the entire sales cycle from finding a client to securing a deal</li>
+                <li>Contact details to be updated on Customer Base and on ERP system</li>
+                <li>Unearth new sales opportunities through networking and turn them into long-term partnerships</li>
+                <li>Present solutions to prospective clients</li>
+                <li>Provide professional after-sales support to maximize customer loyalty</li>
+                <li>Remain in regular contact with your clients to understand and meet their needs</li>
+                <li>Respond to complaints and resolve issues to the customer’s satisfaction and to maintain the company’s reputation</li>
+                <li>Provide professional after-sales support to maximize customer loyalty</li>
+                <li>Negotiate agreements and keep records of sales and data</li>
+            </ul>
+
+            <h2 class="pm">Product Manager</h2>
+            <p><strong>Company:</strong>Axiz (IT Hardware, Software & Services Distributor - SaaS, Cloud, IOT, AI)</p>
+            <p><strong>Period:</strong> 10/2019 to 03/2022</p>
+            <h3>Responsibilities:</h3>
+            <ul>
+                <li>Manage from concept, to design, sample production, testing, forecast, cost, mass production, promotion, support, and finally product end of life</li>
+                <li>Delivers the operating plan: the achievement of growth objectives including market share, revenue, profit, and return on investment for all the channels/categories of business and/or key customers</li>
+                <li>Responsible for managing and implementing marketing activities through research, strategic planning, and implementation</li>
+                <li>Promoting Service offerings(SaaS, Cloud hosting, IoT and AI)</li>
+                <li>Maintain and expand database of prospects within the assigned territory</li>
+                <li>Team up with the Vendor Channel Team to be aligned with the Product G2M strategy</li>
+                <li>Responsible for Product and Business Development</li>
+                <li>Account Management and mapping to achieve targets</li>
+                <li>Negotiate contracts and work agreements</li>
+                <li>Manage and submit accurate weekly forecasts</li>
+                <li>Regular commit reporting for pipeline, forecast for upcoming Quarter</li>
+                <li>Participate in important business/trade events that impact business unit</li>
+                <li>Work closely with Presales Engineers on Demos/POC and Enablement</li>
+                <li>Marketing Promote product e.g. social media campaigns for awareness on LinkedIn</li>
+            </ul>
+
+            <h2 class="ps">Pre-sales Consultant</h2>
+            <p><strong>Company:</strong>Itec South Africa(Telecommunications, Cloud, Mobility, Security)</p>
+            <p><strong>Period:</strong> 08/2019 to 09/2019</p>
+            <h3>Responsibilities:</h3>
+            <ul>
+                <li>Providing administrative and sales support to sales representatives</li>
+                <li>Feasibility checks for customer for customer proposals</li>
+                <li>Projects department and monitoring the completion of projects </li>
+                <li>Update weekly pipeline reports</li>
+                <li>Projects department and monitoring the completion of projects</li>
+                <li>Liaise with Service providers to order links</li>
+            </ul>
+
+            <h2 class="iam">Internal Account Manager</h2>
+            <p><strong>Company:</strong>EOH (Cloud, SaaS, Hardware & Data Management Solutions)</p>
+            <p><strong>Period:</strong> 11/2017 to 07/2019</p>
+            <h3>Responsibilities:</h3>
+            <ul>
+                <li>Vendor & Distribution Management</li>
+                <li>Recommending the nature and scope of present and future product lines by reviewing product specifications and requirements; appraising new product ideas</li>
+                <li>Introducing and marketing new products by developing time-integrated plans with sales, advertising, and production</li>
+                <li>Maintains professional and technical knowledge by attending educational workshops; reviewing professional publications; establishing personal networks</li>
+                <li>Prepare Quotes - For Renewals on Support & Maintenance</li>
+                <li>Prepare Quotes for New Business Proposals on proposed F5 Solutions</li>
+                <li>Follow up on submitted quotations</li>
+                <li>Manage & Update CRM for new opportunities</li>             
+            </ul>
+
+            <h2 class="hd-sd">Helpdesk Consultant</h2>
+            <p><strong>Company:</strong>EOH (Cloud, SaaS, Hardware & Data Management Solutions)</p>
+            <p><strong>Period:</strong> 07/2015 to 10/2017</p>
+            <h3>Responsibilities:</h3>
+            <ul>
+                <li>Incident ticket logging</li>
+                <li>IT Administration</li>
+                <li>Warranty/Out of warranty Repairs</li>
+                <li>Helpdesk/Service Desk Support</li>
+                <li>Onsite Support & Installations</li>
+                <li>IT Technician and Systems Administration, customer service/Helpdesk/Call Centre environment</li>
+                <li>Assembling, upgrading, repairing, installing, maintaining PCs, LAN / network / Service Quality</li>       
+            </ul>
+            
+        </div>
     </div>
+     
 
     <div id="home-content" class="hidden-content">
-        <!-- Your home content sections here -->
-        <p>Hey, I am Lesego. Welcome to my Personal Web Portfolio </p>
+        <div class="content">
+            <p>Hey, I am Lesego. Welcome to my Personal Web Portfolio </p>
+            <img src="./images/1694235232468.jpg" alt="Lesego" class="lesego-image">
+        </div>
     </div>
+    
+
     <script>
         // Get the current page URL
         var currentPage = window.location.href;
@@ -185,10 +335,10 @@
         // Check if the current page is the home page
         if (currentPage.endsWith("/index.html") || currentPage.endsWith("/")) {
             // Show the home content
-            document.getElementById("home-content").style.display = "block";
+            document.getElementById("home-content").classList.add("active");
         } else {
             // Hide the home content on other pages
-            document.getElementById("home-content").style.display = "none";
+            document.getElementById("home-content").classList.remove("active");
         }
     </script>
 
@@ -201,13 +351,12 @@
             allContents.forEach(function(content) {
                 // Hide all content sections except the one corresponding to the clicked section
                 if (content.id === section + "-content") {
-                    content.style.display = "block"; // Show clicked section
+                    content.classList.add("active"); // Show clicked section
                 } else {
-                    content.style.display = "none"; // Hide other sections
+                    content.classList.remove("active"); // Hide other sections
                 }
             });
         }
     </script>
-       
 </body>
 </html>
